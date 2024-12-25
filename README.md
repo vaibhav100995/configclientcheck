@@ -21,7 +21,18 @@ Below are the steps to create a Sprint cloud config client project
 Reference URL : https://www.youtube.com/watch?v=E2HkL766VHs
 
 
+
+
+How to Use Dynamic refresh (Refresh of config values):
+1. In Spring client project add 'org.springframework.boot:spring-boot-starter-actuator' dependency
+2. In application.properties file add this (management.endpoints.web.exposure.include=*) property
+3. If above value you are adding in properties file then don't add * inside double quote but if you are adding in yml file then add * inside double quote
+4. In all classes where you are using @Value annotation on all those classes add @RefreshScope annotation
+
 For Refresh : https://www.youtube.com/watch?v=yNnLICy2zk4
+
+
+Best Practice of Spring cloud config: https://www.youtube.com/watch?v=AiGCx0raQfs
 
 
 
