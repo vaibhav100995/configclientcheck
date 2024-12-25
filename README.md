@@ -18,4 +18,10 @@ Below are the steps to create a Sprint cloud config client project
 6. To achieve step 5, in this project/application(configclientcheck) we need to add 'spring.application.name' in our application.properties file.
 
 
+Reference URL : https://www.youtube.com/watch?v=E2HkL766VHs
+
+
+For Refresh : https://www.youtube.com/watch?v=yNnLICy2zk4
+
+
 
