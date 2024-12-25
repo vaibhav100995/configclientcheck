@@ -1,7 +1,7 @@
 # configclientcheck
 Repository related to config client code in spring boot
 
-Below are the steps to create a Sprint cloud config client project
+**Below are the steps to create a Sprint cloud config client project**
 1. Create a Spring boot project
 2. In build.gradle add 'org.springframework.cloud:spring-cloud-starter-config' dependency
 3. If you are creating project from scratch and adding the above dependency using Spring Initializer then below thing will come automatically but if you already created project and want to add dependency separately then you need to add below thing also in you build.gradle file:
@@ -23,7 +23,7 @@ Reference URL : https://www.youtube.com/watch?v=E2HkL766VHs
 
 
 
-How to Use Dynamic refresh (Refresh of config values):
+**How to Use Dynamic refresh (Refresh of config values):**
 1. In Spring client project add 'org.springframework.boot:spring-boot-starter-actuator' dependency
 2. In application.properties file add this (management.endpoints.web.exposure.include=*) property
 3. If above value you are adding in properties file then don't add * inside double quote but if you are adding in yml file then add * inside double quote
